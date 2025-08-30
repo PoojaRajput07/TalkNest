@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { useAuth } from '../AuthContext';
-import { getStreamToken } from '../axios';
+import { getStreamToken } from '../Axios';
  import {Channel,ChannelHeader,Chat,MessageInput,MessageList,Thread,Window} from "stream-chat-react"
 import { StreamChat } from 'stream-chat';
 import { TbArrowSharpTurnLeft } from 'react-icons/tb';

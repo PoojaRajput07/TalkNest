@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useTheme } from '../ThemeContext'
-import { acceptRequest, friendRequest } from '../axios';
+import { acceptRequest, friendRequest } from '../Axios';
 import { LiaUserFriendsSolid } from "react-icons/lia";
 import { useAuth } from '../AuthContext';
 

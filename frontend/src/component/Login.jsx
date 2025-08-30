@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { doLogin } from '../axios'
+import { doLogin } from '../Axios'
 import toast, { Toaster } from 'react-hot-toast'
 import { useNavigate } from 'react-router-dom'
 import OnBoard from './OnBoard'

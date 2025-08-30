@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { doSignUp, loggedUserInfo } from "../axios";
+import { doSignUp, loggedUserInfo } from "../Axios"
 import toast, {  Toaster } from "react-hot-toast";
 import { TbApiApp } from "react-icons/tb";
 import { Navigate, NavLink, useNavigate } from "react-router-dom";

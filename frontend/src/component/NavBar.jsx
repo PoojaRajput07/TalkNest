@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useAuth } from "../AuthContext"
 import { TbApiApp, TbBell } from "react-icons/tb";
 import { IoIosColorPalette, IoIosLogOut } from "react-icons/io";
-import { doLogout } from "../axios";
+import { doLogout } from "../Axios";
 import toast from "react-hot-toast";
 import { useTheme } from "../ThemeContext";
 import ThemeSelector from "./ThemeSelector";

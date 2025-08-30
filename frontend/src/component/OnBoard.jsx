@@ -1,6 +1,6 @@
 import {  useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
-import { getonBoard } from "../axios";
+import { getonBoard } from "../Axios";
 import { useAuth } from "../AuthContext";
 import { LANGUAGES } from "../constant/constant";
 import {useNavigate } from "react-router-dom";

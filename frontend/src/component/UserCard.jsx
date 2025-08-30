@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {sentRequest } from '../axios';
+import {sentRequest } from '../Axios';
 import Chat from './ChatInfo';
 import { useNavigate } from 'react-router-dom';
 

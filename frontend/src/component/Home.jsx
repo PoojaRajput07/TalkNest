@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import { findFriends, findRecommendations, FriendsInfo } from "../axios";
+import { findFriends, findRecommendations, FriendsInfo } from "../Axios";
 import { useTheme } from "../ThemeContext";
 import toast from "react-hot-toast";
 import UserCard from "./UserCard";
