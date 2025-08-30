@@ -1,7 +1,7 @@
 
 import Sidebar from "./Sidebar"
 
-import NavBar from "./navBar"
+import NavBar from "./NavBar"
 
 
 export const AppLayout=({showSidebar=false,children})=>{
