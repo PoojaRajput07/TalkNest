@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { loggedUserInfo } from "./axios";
+import { loggedUserInfo } from "./Axios";
+
 
 const AuthContext=createContext();
 export const AuthProvider=({children})=>{
